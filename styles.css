@@ -64,21 +64,11 @@ a {
     font-size: 12px;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
+  img {
+    margin: 0 auto;
   }
 
-  section {
-    padding: 20px;
-  }
-
-  .articles {
-    margin: 0;
-  }
-
-  .col-2,
-  .col-9 {
-    width: 100%;
+  .col-2 .col-9 {
+    column-width: 100%;
   }
 }
