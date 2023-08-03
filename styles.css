@@ -48,10 +48,6 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-  body {
-    font-size: 100px;
-  }
-
   header {
     padding: 60px 0;
   }
@@ -60,7 +56,24 @@ a {
     font-size: 48px;
   }
 
-  .row {
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .container {
     margin: 0;
   }
 
