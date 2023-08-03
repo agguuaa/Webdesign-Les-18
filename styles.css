@@ -47,7 +47,7 @@ a {
   list-style-type: none;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   header {
     padding: 60px 0;
   }
@@ -56,19 +56,11 @@ a {
     font-size: 48px;
   }
 
-  header h2 {
-    font-size: 20px;
-  }
-
-  header h3 {
-    font-size: 12px;
-  }
-
   img {
     margin: 0 auto;
   }
 
-  .col-2 .col-9 {
-    column-width: 100%;
+  ul {
+    padding: 10px;
   }
 }
